@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Francisco Joel Ramirez Rosas">
+    <title>Imagenes y contenido multimedia, tablas HTML</title>
+    
+</head>
+<body>
+    <h1>Imagenes y contenido en HTML</h1>
+    <div>
+        <h2>Imagenes externas</h2>
+        <p>Esta imagen esta en la web</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6McEyCRLCCzTjU_ObQtZxQECeJTrzDaK34OmNDaTQEQ&s=10" alt="procesador Rizen 9, serie 9000">
+
+    </div> 
+
+    <div>
+        <h2>Imagenes internas</h2>
+        <p>Esta imagen esta en el servidor</p>
+        <img src="imagenes/intel i9.jpg" alt="Procesador intel core i9, 14 generacion">
+        
+    </div>
+      <div>
+        <h2>Etiqueta de video</h2>
+        <p>Este video esta en el servidor</p>
+        <video src="media/monkey-d-wallsflow-com.mp4" controls loop></video>
+        
+    </div>
+      <div>
+        <h2>Etiqueta de audio</h2>
+        <p>Este audio esta en el servidor</p>
+        <audio src="media/piano.ogg" controls></audio>
+        
+      </div>
+
+
+    <div>
+        <h2>Tablas HTML</h2>
+        <p>Es un elemento que nos permite distribuir informacion en un formato especifico</p>
+        <table border="1px">
+            <tr>
+            <th>Pais</th>
+            <th>Capital</th>
+            <th>idioma</th>
+            <th>continente</th>
+            </tr>
+
+            <tr>
+            <td>Mexico</td>
+            <td>Cdmx</td>
+            <td>español</td>
+            <td>america</td>
+            </tr>
+
+             <tr>
+            <td>Japon</td>
+            <td>tokyo</td>
+            <td>japones</td>
+            <td>asia</td>
+            </tr>
+
+             <tr>
+            <td>rusia</td>
+            <td>moscu</td>
+            <td>ruso</td>
+            <td>asia y europa</td>
+            </tr>
+
+             <tr>
+            <td>china</td>
+            <td>pekin</td>
+            <td>chino mandarin</td>
+            <td>asia</td>
+            </tr>
+
+            <tr>
+            <td>peru</td>
+            <td>lima</td>
+            <td>español</td>
+            <td>america</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <table border="1px">
+    <caption>Evaluaciones</caption>
+    <tr>
+    <th rowspan="2"></th>
+    <th colspan="2">1<sup>a</sup> Evaluación</th>
+    <th colspan="2">2<sup>a</sup> Evaluación</th>
+    <th colspan="2">3<sup>a</sup> Evaluación</th>
+    </tr>
+
+    <tr>
+    <td style="background-color: green;">Aprobados</td>
+    <td style="background-color: red;">Suspendidos</td>
+    <td style="background-color: green;">Aprobados</td>
+    <td style="background-color: red;">Suspendidos</td> 
+    <td style="background-color: green;">Aprobados</td>
+    <td style="background-color: red;">Suspendidos</td>     
+    </tr>
+
+    <tr>
+    <td>Informatica</td>
+    <td>7</td>
+    <td>4</td>
+    <td>9</td>
+    <td>7</td>
+    <td>3</td>
+    <td>5</td>
+    </tr>
+
+    <tr>
+    <td>Matematicas</td>
+    <td>2</td>
+    <td>1</td>
+    <td>5</td>
+    <td>7</td>
+    <td>8</td>
+    <td>5</td>
+    </tr>
+
+
+    </table>
+
+    <br>
+
+    <table border="1px">
+        <caption> Horario</caption>
+        <tr>
+        <th>Horas</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        </tr>
+
+        <tr>
+        <td>8:00-9:00</td>
+        <td rowspan="2" style="background-color: red;">Matematicas</td>
+        <td style="background-color: rgb(176, 22, 22);">Lenguas</td>
+        <td>Musica</td>
+        <td></td>
+        <td rowspan="2" style="background-color: red;">Matematicas</td>
+        </tr>
+
+        <tr>
+        <td>9:00-10:00</td>
+        <td>ingles</td>
+        <td>ingles</td>
+        <td style="background-color: pink;">E.Fisica</td>
+        </tr>
+
+        <tr>
+        <td>10:00-10:30</td>
+        <td colspan="5" style="background-color: green;">Recreo</td>
+        </tr>
+
+        <tr>
+        <td>10:30-11:30</td>
+        <td style="background-color: pink;">E.Fisica</td>
+        <td>Valenciano</td>
+        <td rowspan="2" style="background-color: rgb(177, 30, 30);;">Lengua</td>
+        <td style="background-color: yellow;">Informatica</td>
+        <td>ingles</td>
+        </tr>
+
+        <tr>
+        <td>12:30-13:30</td>
+        <td>Musica</td>
+        <td style="background-color: pink;">E.Fisica</td>
+        <td rowspan="2" style="background-color: red;">Matematicas</td>
+        <td style="background-color: yellow;">Informatica</td>
+        </tr>
+
+        <tr>
+        <td>13:30-14:30</td>
+        <td></td>
+        <td style="background-color: yellow;">informatica</td>
+        <td></td>
+        <td></td>
+        </tr>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
