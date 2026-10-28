@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen HTML</title>
+    <meta name="autor" content="Francisco Joel Ramirez Rosas" >
+</head>
+<body>
+    <header>
+        <section>
+            <img src="/imagenes/gato.jpg" alt="Logo de gato">
+        </section>
+        <section>
+            <h1>Resumen HTML y contenedores semánticos</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/">Sobre nosotros</a></li>
+                <li><a href="/">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <H2>RESUMEN HTML:PRINCIPALES CONCEPTOS Y ETIQUETAS</H2>
+        <p>Esta pagina va a resumir los principales conceptos y etiquetas vistas en la clase de programacion web 1, en el modulo HTML </p>
+    </section>
+    <main>
+        <section>
+            <h2>Conceptos principales HTML</h2>
+            <article>
+                <h3>HTML</h3>
+                <P>El Lenguaje de Marcado de Hipertexto es un lengujae de marcas que se utiliza para estructurar sitios web</P>
+            </article>
+
+            <article>
+                <h3>Elemento HTML</h3>
+                <p>Un elemento HTML es la unidad básica de estructura y contenido en una página web, y esta compuesta de:</p>
+                <ol>
+                    <li>Etiqueta de apertura</li>
+                    <li>Pares atributos-valor</li>
+                    <li>Contenido</li>
+                    <li>Etiqueta de cierre</li>
+                </ol>
+            </article>
+
+            <article>
+                <h3>Etiqueta &lt;Head&gt;</h3>
+                <p>es una etiqueta que se utiliza para comunicarse con el navegador a traves de los metadatos, permite mejorar el SEO, además se enlazan archivos externos de estilos o scripts</p>
+                
+            </article>
+            <article>
+                <h3>Etiqueta &lt;body&gt;</h3>
+                <p>Dentro de esta etiqueta va todo el contenido que ve el usuario en nuestra pagina web</p>
+            </article>
+            <article>
+                <h3>Contenedores semanticos</h3>
+                <table border="1px">
+                    <tr>
+                        <th>&lt;header&gt;</th>
+                        <td>Es una etiqueta utilizada para el contenido introductorio para una pagina web, puede contener el logo, el menu de navegacion principal, el nombre de la empresa, etc.</td>
+                    </tr>
+                    <tr>
+                       <th>&lt;NAV&gt;</th>
+                       <td>Etiqueta utilizada para el menu de navegacion principal, suele contener enlaces a otras paginas relacionadas o navegar por la pagina principal, no debe de haber mas de una en la pagina.</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;MAIN&gt;</th>
+                        <td>Etiqueta unica de una pagina web, cuyo proposito es resaltar nuestro objetivo o mensaje principal del sitio web, dentro se colocara el contenido principal de nuestra pagina</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;SECTION&gt;</th>
+                        <td>Es una etiqueta que poco a poco se intenta que sustituya a &lt;DIV&gt; , su uso es para dividir a una pagina web en secciones y agrupar contenido relacionado </td>
+                    </tr>
+                    <tr> 
+                        <th>&lt;ARTICLE&gt;</th>
+                        <td>Es una etiqueta que se utiliza para agrupar contenido autonomo, que si se separa de otro contenido sigue teniendo coherencia, normalmente se compone de un encabezado y contenido</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;FOOTER&gt;</th>
+                        <td>Es una etiqueta que normalmente se encuentra hasta el final de una página y funciona cómo cierre de sitio web, amenudo contiene datos de contacto, derecho de autor u otra información complementaria</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;ASIDE&gt;</th>
+                        <td>Esta etiqueta representa una seccion de la pagina web cuyo contenido no esta relacionado con el contenido principal del documento, como: barras laterales, publicidad, enlaces a otros articulos relacionados etc.</td>
+                    </tr> 
+                </table>
+            </article>
+        </section>
+
+        <section>
+            <h2>Elementos principales de HTML</h2>
+            <article>
+                <h3>Elemento &lt;a&gt;</h3>
+                <p>Este elemento contiene enlaces a otras paginas:</p>
+                <ul>
+                    <li>Externos</li>
+                    <li>Internos</li>
+                    <li>Anclaje</li>
+                </ul>
+                <p>Algunosvalores especiales que tiene en su atributo href son:  </p>
+                <dl>
+                    <dt>href="https://wa.me/1234567891"</dt>
+                    <dd>Este valor envia un WhatsApp a un numero especificado</dd>
+                    <dt>href="mailto:example@gmail.com"</dt>
+                    <dd>Envia un correo a un mail especifico</dd>
+                </dl>
+            </article>     
+            <article>
+                <h3>Elemento  &lt;form&gt; </h3>
+                <p>
+                    Es la forma en que los usuarios de un sitio web pueden comunicarse con el, 
+                    mediante el formulario se reciben, procesan y envián datos de los usuarios para 
+                    el fin u objetivo del sitio web
+                </p>
+                <p>Por ejemplo este es un formulario típico de inicio de sesion:</p>
+                <form action="procesar.py" method="post">
+                    <label for="username">Nombre de usuario:</label>
+                    <input type="text" name="username" id="username" required>
+                    <br>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" name="password" id="password" required>
+                    <br>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+                <section>
+                    <p>Contactanos:</p>
+                    <ul>
+                        <li><a href="mailto:example@gmail.com">Email</a></li>
+                        <li><a href="https://wa.me/556898562">WhatsApp</a></li>
+                        <li><a href="https://facebook.com">Facebook</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Esta página esta licenciada bajo:</p>
+                    <a href="https://127.0.0.1/tarea7/index.html">Resumen HTML</a> © 2026 by <a href="https://github.com/JoelRzLs/ProgramacionWeb1-1559-2027-1">JoelRzLs</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+                </section>
+                
+    </footer>
+</body>
+</html>
