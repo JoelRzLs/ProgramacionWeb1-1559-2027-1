@@ -1,0 +1,23 @@
+/*ESTILOS PARA UN SELECETOR DE UN ELEMENTO*/
+h2
+{
+    color:rgb(200, 23, 23);
+}
+/*ESTILOS PARA UN SELECETOR DE UNA CLASE*/
+.color_h2 
+{
+    color:#1c711c;
+}
+/*ESTILOS PARA UN SELECETOR DE UN IDENTIFICADOR*/
+#color_h1 
+{
+color: rgb(184, 9, 176);
+}
+.color_stylesinternos
+{
+color: rgb(207, 31, 0);
+}
+#bg_header 
+{
+    background-color: rgb(59, 56, 226);
+}
