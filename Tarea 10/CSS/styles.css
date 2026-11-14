@@ -1,0 +1,44 @@
+.fondo1 
+{
+    /*background-image: Permite agregar imagenes como fondo de un elemento o de un contenedor y tambien se pueden agregar gradientes */
+    background-image: linear-gradient(to top, rgba(28, 57, 151, 0.406), rgb(68, 25, 25)),  url(../imagenes/imagen-1.jpg);
+
+    /*background-size (cover, contain, width (px), height(px))
+    Especifica el tamaño de la imagen de fondo*/
+
+    background-size: cover;
+
+    /*background-repeat (repeat, no-repeat, repeat-x, repeat-y) aplcia cuando la imagen 
+    es mas pequeña que su contenedor*/
+
+    background-repeat: no-repeat;
+
+    /*background-position (rop, bottom, center, right, left ) va establecer
+    la posicion inciial de una imagen en su contenedor*/
+
+    background-position: center;
+
+    /*Propiedades generales de un Contenedor*/
+    height: 600px;
+    width: 900px;
+
+    /*background-attachment (scroll y fixed) 
+    se utiliza para que la imagen quede fija cuando un usuario se desplaza
+    por la pagina*/
+
+    background-attachment: fixed;
+}
+.p1{
+    color:white;
+}
+.fondo2
+{
+    /*background: (image) (position) / (size) (repeat) (attachment) (color)*/
+    background: url(../imagenes/imagen-2.jpg) center / cover no-repeat scroll rgba(67, 248, 0, 0.376);
+    width: 800px;
+    height: 500px;
+    border: 2px solid rgb(15, 174, 111);
+}
+.p2{
+    color:white;
+}
