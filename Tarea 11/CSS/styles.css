@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#encabezado{
+    background-color:black ;
+    text-align: center;
+    color: white;
+    /*El relleon o padding: Espacio entre el contenido del elemento y su borde
+    se aplican los valores en sentido horario: top, right, botomm y left
+    1valor: t,r,b,l 2valores: tb, rl 3valores: t, rl, b*/
+    padding: 15px 5px 10px;
+    border: 20px groove rgb(2, 226, 88);
+    border-top-style: double;
+    border-left-color:  red;
+    border-right-color: red;
+    border-bottom-width: 2px;
+    border-radius: 5%;
+    /*es el espacio que hay entre un elemento html de los elementos html a su alrededor*/
+    margin: 15px 5px;
+
+    /*es el contorno alrededor de nuestro elemento html(dentro de el podemos encontrar el contenido del elemento y su relleno)
+    valores(solid,dotted,dashed,double,groove,inset,outset,hidden y none)*/
+
+    /*border-style: groove;
+    border-width: 30px;
+    border-color: rgb(2, 226, 88);
+    */
+    /*se puede utilizar para crear efectos de sombra alrededor del borde de un element, se debe especificar los valores:desplazamiento-horizontal, desplazamiento-vertical,radio-desenfoque,radio-propagacion y color*/
+    box-shadow: 5px 5px 5px 10px rgb(192, 19, 114);
+}
+#encabezado h1{
+     text-decoration: overline;
+}
+.introduccion{
+    border: 2px solid lime;
+    background-color: rgba(47, 233, 177, 0.267);
+    padding: 5px;
+    color: blueviolet;
+}
+.introduccion p{
+    width: 300px;
+    height: 150px;
+    padding:  5px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    font-family:"Share Tech" ;
+}
+.introduccion span{
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(1, 240, 13);
+    padding: 10px;
+    margin: 50px;
+
+
+}
+.texto-fuente{
+    background-color: black;
+    color: white;
+}
+
+.propiedades-texto h2{
+    border: 2px solid green;
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px peru;
+    font-family: "Pixelify Sans";
+   
+}
+
+.propiedades-texto p{
+    padding:  5px;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 0.3px;
+}
+.propiedades-fuente h2{
+    padding: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+.propiedades-fuente p{
+    padding:  5px;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 0.3px;
+    font-weight: 500;
+    font-style: italic;
+}
