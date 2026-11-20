@@ -1,0 +1,76 @@
+html{
+    font-size: 10px;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+
+}
+/*orden para los estilos de los estados de un enlace (LVFHA)*/
+a:link{
+    color: brown;
+    text-decoration: underline;
+}
+a:visited{
+    color: chartreuse;
+    text-decoration: line-through;
+}
+a:focus {
+    background-color: red;
+    color: ivory;
+    border: 2px dotted aqua;
+
+}
+a:hover {
+    font-size: 12px;
+    color: rgb(245, 245, 245);
+    background-color: rgb(231, 20, 221);
+    border: 2px solid peru;
+}
+a:active{
+    color: blueviolet;
+    background-color: wheat;
+    border: 2px solid greenyellow;
+}
+#encabezado {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+#encabezado h1{
+    text-shadow: 2px 2px 2px rebeccapurple;
+    text-align: center;
+    font-size: 2em;
+}
+#encabezado p{
+    font-size: 2em;
+}
+.contenedor-enlaces{
+    border:  2px dotted green;
+    background-color: rgb(0, 0, 0);
+    color: rgb(16, 201, 201);
+}
+.enlaces h2{
+    text-align: center;
+    text-shadow:  2px 2px 2px rebeccapurple;
+    font-size: 4rem;
+}
+.enlaces p{
+    text-align: justify;
+    padding: 5px;
+
+}
+.enlaces ul{
+    border: 2px solid red;
+    padding-left: 0;
+}
+.enlaces ul li{
+    margin: 0.8rem;
+    border: 0.2rem solid green;
+    /*(dis,decimal,circle,square, lower-roman, lower-alpha
+    upper-alpha, none)*/
+    list-style-type:disc ;
+    list-style-position: inside;
+}
+
